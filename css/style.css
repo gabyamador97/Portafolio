@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Betterworks', 'Cocogoose';
+    src: url("../fonts/Betterworks.otf") format('OpenType');
+	src: url("../fonts/Cocogoose Pro Light-trial.ttf") format('OpenType');
+	src: url("../fonts/Cocogoose Pro Thin-trial.ttf") format('OpenType');
+	
+}
+
+body{
+	font-family: 'Cocogoose Pro Thin', 'Cocogoose Pro Light';
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.about{
+	min-height:300px;
+	margin-top: 70px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+
+.header-area.sticky .navbar-light{
+	background-color: #0000 !important;
+}
+
+#navbar {
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	padding: 25px;	
+}
+
+.nav-sociales{
+	border-radius: 100%;
+	color: #C4237D;
+}
+
+.intro {
+	background-image: url("../img/back.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30% 0;
+}
+
+.intro h1{
+	color: #C4237D;
+	text-align: right;
+	font-family: 'Betterworks';
+}
+.intro h3 {
+	font-family: 'Cocogoose Pro Light';
+	color: #29AAB9;
+	text-align: right;
+	margin-top: 60px 0;
+}
+
+.about h1{
+	color: #29AAB9;
+	text-align: center;
+	font-family: 'Betterworks';
+}
+
+.servicios h1 {
+	color: #29AAB9;
+	text-align: center;
+	font-family: 'Betterworks';
+}
+
+.titulo {
+	color: #29AAB9;
+	text-align: center;
+	font-family: 'Betterworks';
+	font-size: 30px;
+	padding-top: 50px;
+}
+.iconos {
+	color: #6aab3d;
+	font-size: 50px;
+	margin-top: 30px;
+}
+.texto-corto {
+	max-width: 80% ;
+	margin: 10px auto;
+	text-align:left;
+	padding-top: 100% 0;
+	font-family: 'cocogoose pro thin';
+	font-size: 20px;
+}
+.icon {
+	color: #612c7d;
+	font-size: 30px;
+
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(196,34,125,0); 
+	opacity: 0;
+	transition: 0.3s all ease-in;
+}
+
+.gallery-texto {
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top: 0%;
+	color: #C4237D;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	font-family: 'Cocogoose';
+}
+.gallery-texto h4{
+	font-size: 25px;
+	
+}
+
+.img-zoom:hover img {
+	transform: scale(1.20);
+	transiton: 0.3s all ease-out;
+	filter: grayscale(0.6);
+	
+}
+.img-zoom img {
+	transiton: 0.3s all ease-out;
+	
+	
+}
+.gallery-texto:hover {
+	opacity: 1;
+}
+
+.form-group{
+	color: #fff;
+	border-color:#29AAB9;
+	border-radius: 10%;
+	background-color: transparent;
+}
+
+#Celular,#nombre,#correo,#country,#mensaje,#submit{
+	border-color: #29AAB9;
+	background-color: transparent;
+}
+
+.contacto {
+	margin-top: 70px;
+}
+
+.portafolio{
+	margin-top: 90px;
+}
+
+.footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+#formulario {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+.btn-pink {
+	color: #c4227d;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 01px solid #612c7d;
+	border-color:#c4227d;
+
+}
+.btn-pink:hover{
+	background-color: #c4227d;
+	color: #fff;
+	
+}
